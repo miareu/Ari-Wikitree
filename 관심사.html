@@ -3,66 +3,38 @@
     <head>
         <title>Ari's Wikitree</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
     </head>
 
-    <body>
-        <style>
-            a {
-                color:palevioletred;
-            }
-            .saw {
-                color:gray;
-            }
-            #active {
-                color:hotpink;
-            }
-
-        </style>
+    <body> 
         <h1><a href="index.html" style="color:rgb(185, 30, 82); text-decoration:none">Ari's Wikitree</a></h1> 
-        <ol><h3>
-            <li><a href="이름.html" class="saw">이름</a></li>
-            <li><a href="생년월일.html" class="saw">생년월일</a></li>
-            <li><a href="학력.html" class="saw">학력</a></li> 
-            <li><a href="관심사.html" class="saw" id="active">관심사</a></li>
-            </h3>
-        </ol>
-        <ol>
-            <li>인생OO</li>
-                <p><h3>영화</h3>
-                   <h4>
-                        <br>그시절 우리가 좋아했던 소녀
-                        <br>늑대아이
-                    </h4>
-                </p>
-                <p><h3>앨범</h3>
-                   <h4>
-                        <br>권진아-나의모양
-                        <br>이소라-무제
-                   </h4>
-                </p>
-                <p><h3>뮤지컬</h3>
-                    <h4>
-                         <br>헤드윅
-                         <br>킹키부츠
-                         <br>
-                         <iframe width="560" height="315" src="https://www.youtube.com/embed/4j-efSWZYMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </h4>
-                 </p>
-                 
-    <br>
-    <br> 
-            <li>덕질</li>
-                <p><h3>NCT 마크</h3>
-                    <h4>
-                        <br>권진아-나의모양
-                        <br>이소라-무제
-                    </h4>
-                </p>  
-                <p><h3>뮤지컬 배우 최재림</h3>
-                    <h4>
-                         <br>권진아-나의모양
-                         <br>이소라-무제
-                    </h4>
-                </p>
-        </ol>
+        <div id="grid">
+            <ol>
+                <li><a href="이름.html">이름</a></li>
+                <li><a href="생년월일.html">생년월일</a></li>
+                <li><a href="학력.html" id="active">학력</a></li> 
+                <li><a href="관심사.html">관심사</a></li>
+            </ol>
+                <div>
+                            <p><h4>영화</h4>
+                            그시절 우리가 좋아했던 소녀
+                            <br>늑대아이
+                            </p>  
+                            <br>
+                            <p><h4>앨범</h4>
+                            권진아-나의모양
+                            <br>이소라-무제
+                            </p>
+                            <br>
+                            <p><h4>뮤지컬</h4>
+                            헤드윅
+                            <br>킹키부츠
+                            <br>
+                            <br>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/4j-efSWZYMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </h4>
+                            </p>                                    
+                </div>
+        </div>
+        
     </body>
